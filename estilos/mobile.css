@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -16,7 +15,7 @@ body {
     background-image: linear-gradient(#0AABBD, #2891C0, #4A76C1, #7850C2, #A02EC2);
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden; /* Impede a rolagem */
+    overflow: hidden;
 }
 
 main#login{
