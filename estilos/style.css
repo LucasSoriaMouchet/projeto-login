@@ -11,11 +11,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Funnel Sans";
     background-image: linear-gradient(#0AABBD, #2891C0, #4A76C1, #7850C2, #A02EC2);
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden; /* Impede a rolagem */
 }
 
 main#login{
