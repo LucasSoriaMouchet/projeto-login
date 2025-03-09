@@ -26,16 +26,20 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 500px;
     background-color: rgb(27, 27, 27);
     color: white;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #00000085;
+    transition: width .2s height .2s;
 }
 
 section#login > div#imagem {
     display: block;
-    background: ghostwhite url(../imagens/pattern_bg.jpg) no-repeat;
+    background: ghostwhite url(../imagens/fundo.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     height: 200px;
